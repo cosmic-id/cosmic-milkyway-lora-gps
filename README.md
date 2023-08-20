@@ -17,6 +17,12 @@ The GPS Chip used is **Quectel GPS L86** while the LoRa Chip used is **RFM95W**.
 | D2                | DIO0   |
 | D6                | DIO1   |
 
+## GPS Chip Interfacing
+
+The GPS RX, TX to microController TX, RX **must be selected by the headers** provided in the shield. 
+
+> The provided examples below are based on the uC Tx = 4, and uC Rx = 3
+
 ## Prerequisite
 
 - Install library [Software Serial](https://docs.arduino.cc/learn/built-in-libraries/software-serial)
