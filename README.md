@@ -27,7 +27,7 @@ The GPS RX, TX to microController TX, RX **must be selected by the headers** pro
 
 - Install library [Software Serial](https://docs.arduino.cc/learn/built-in-libraries/software-serial)
 - Install library [Tiny GPS](https://github.com/mikalhart/TinyGPSPlus)
-- Install library LoRaWAN
+- Install library [LoRaWAN ANTARES](LoRaWAN-Arduino-Library.zip)
 
 ## Example
 
@@ -35,6 +35,7 @@ The GPS RX, TX to microController TX, RX **must be selected by the headers** pro
 
 - [Unparsed NMEA GPS Data](NMEA-gps-data-unparsed/NMEA-gps-data-unparsed.ino)
 - [Parsed Location GPS Data](location-date-time-parsed/location-date-time-parsed.ino)
+- [LoRaWAN Antares](LoRaWAN_ANTARES/LoRaWAN_ANTARES.ino)
 
 ## FAQ
 
