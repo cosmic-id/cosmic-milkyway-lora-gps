@@ -7,11 +7,11 @@ The GPS Chip used is **Quectel GPS L86** while the LoRa Chip used is **RFM95W**.
 
 ### LoRa(WAN) Chip Interfacing
 
-| Cosmic LoRa Ray   | RFM95W |  
+| Arduino    | LoRa |  
 |-------------------|------- |
-| D11               | MOSI   |
-| D12               | MISO   |
-| D13               | SCK    |
+| ICSP               | MOSI   |
+| ICSP               | MISO   |
+| ICSP               | SCK    |
 | D10               | NSS    |
 | D9                | RST    |
 | D2                | DIO0   |
